@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import PasswordStrengthBar from 'react-password-strength-bar';
 
-export default function Signin() {
+export default function Signup() {
   const [inputValue, setInputValue] = useState('');
   return (
     <>
@@ -17,7 +17,7 @@ export default function Signin() {
             <h1 className="text-blue ms-2 text-3xl font-bold">Stack</h1>
           </div>
           <h2 className="mt-5 text-xl font-semibold leading-9 tracking-tight text-gray-900">
-            Sign in to continue with Stack
+            Sign up to join with Stack
           </h2>
         </div>
 
@@ -95,18 +95,18 @@ export default function Signin() {
                 type="submit"
                 className="bg-iris text-md flex w-full justify-center rounded-md px-3 py-2 font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Sign In
+                Sign Up
               </button>
             </div>
           </form>
 
           <p className="text-md mt-6 text-start font-medium text-[#B0B7C3]">
-            Don’t have an account?{' '}
+            Already have an account?{' '}
             <a
               href="#"
               className="text-md font-medium text-[#377DFF] hover:text-[rgb(55,125,255)]"
             >
-              Sign Up
+              Sign In
             </a>
           </p>
         </div>
