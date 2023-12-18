@@ -16,6 +16,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+nav {
+  background-color: #6941c6;
+}
+
 /* input {
   -webkit-text-security: square;
 } */
